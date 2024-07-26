@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Arquitectura</title>
+    <link rel="stylesheet" href="/ti2031-2024/prueba.html/styles/global.css">
+</head>
+<body class="w3-grey">
+    <div id="login-section" class="w3-container">
+        <h2>Login</h2>
+        <input type="text" id="nickname" placeholder="Ingresa tu nickname">
+        <button class="login-btn" onclick="login()">Login</button>
+    </div>
+
+    <!-- Sección de Bienvenida -->
+    <div id="welcome-section" class="w3-container" style="display:none;">
+        <h2>Bienvenido, <span id="nickname-display"></span></h2>
+        <button class="logout" onclick="logout()">Logout</button>
+    </div>
+
+    <header class="w3-top">
+        <img class="w3-image" src="/ti2031-2024/prueba.html/images/arquitectura.jpg" alt="Arquitectura" width="1500" height="800">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button"><b>BR</b> Arquitectos</a>
+        </div>
+    </header>
+
+    <!-- Sección de Carrito -->
+    <div id="carrito" class="w3-container w3-padding-32 w3-white"></div>
+
+    <!-- Sección del Catálogo -->
+    <div id="catalogo" class="w3-container w3-padding-32 w3-white" style="display:none;"></div>
+
+    
+
+
+    <!-- Scripts -->
+    <script src="/ti2031-2024/prueba.html/componentes/header.js"></script>
+    <script src="/ti2031-2024/prueba.html/componentes/footer.js"></script>
+    <script src="/ti2031-2024/prueba.html/componentes/layout.js"></script>
+    <script src="/ti2031-2024/prueba.html/pages/index.js"></script>
+    <script src="/ti2031-2024/prueba.html/componentes/app.js"></script>
+    <script src="/ti2031-2024/prueba.html/pages/admin/usuarios.js"></script> 
+    <script src="/ti2031-2024/prueba.html/styles/global.css"></script>
+</body>
+
+</html>
+
